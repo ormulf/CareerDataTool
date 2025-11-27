@@ -2,6 +2,7 @@
 {
     public class Place
     {
+        public int PlaceID { get; set; }
         public int? CountryID { get; set; }
         public Country ?PlaceCountry { get; set; }
         public int? StateID { get; set; }
